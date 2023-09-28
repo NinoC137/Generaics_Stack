@@ -16,5 +16,7 @@ int main(void){
         printf("pop a number: %d\r\n", result);
     }
 
+    stack_free(s);
+
     return 0;
 }
